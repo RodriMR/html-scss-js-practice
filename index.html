@@ -4,7 +4,359 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!-- Compiled Sass styles -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons CDN -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <title>Practicing</title>
   </head>
-  <body></body>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="container">
+        <a href="#" class="nav__logo"><h3>RUDICHSEN</h3></a>
+        <ul id="nav__items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#specialists">Specialistst</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#appointment" class="btn">Make Appointment</a></li>
+        </ul>
+        <button id="open__nav-btn"><i class="bx bx-menu"></i></button>
+        <button id="close__nav-btn"><i class="bx bx-x"></i></button>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="header__content">
+          <h1>Lorem ipsum dolor</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ab
+            facere voluptas quam exercitationem ullam inventore cum possimus
+            asperiores esse.
+          </p>
+          <a href="#appointment" class="btn">Make Appointment</a>
+        </div>
+        <div class="header__image">
+          <img src="./assets/header.svg" alt="Header Image" />
+        </div>
+      </div>
+    </header>
+    <!-- SERVICES -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+        suscipit!
+      </p>
+      <div class="container">
+        <article>
+          <i class="bx bx-book"></i>
+          <div>
+            <h4>Online Booking</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              dolores quas dicta dolorem hic fuga.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-plus-medical"></i>
+          <div>
+            <h4>Qualified Doctors</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              dolores quas dicta dolorem hic fuga.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-map"></i>
+          <div>
+            <h4>Best Zone Coverage</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              dolores quas dicta dolorem hic fuga.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bxs-purchase-tag-alt"></i>
+          <div>
+            <h4>Afordable Prices</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              dolores quas dicta dolorem hic fuga.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bx-calendar"></i>
+          <div>
+            <h4>All Ages</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              dolores quas dicta dolorem hic fuga.</small
+            >
+          </div>
+        </article>
+        <article>
+          <i class="bx bxs-user-check"></i>
+          <div>
+            <h4>Dental Plan</h4>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              dolores quas dicta dolorem hic fuga.</small
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SPECIALITS -->
+    <section id="specialists">
+      <h2>Our top specialists</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur,
+        impedit et! Doloribus ipsa recusandae fuga?
+      </p>
+      <div class="container">
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist1.jpg" alt="specialist one" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Kimodo Sanaka</h4>
+            <small>Surgery specialist</small>
+          </div>
+          <div class="specialist__socials">
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-facebook-square"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <a
+            target="_blank"
+            href="https://wa.me/+5491126124456"
+            class="specialist__whatsapp"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist2.jpg" alt="specialist one" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Lisa Sanchez</h4>
+            <small>Orthopedic specialist</small>
+          </div>
+          <div class="specialist__socials">
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-facebook-square"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <a
+            target="_blank"
+            href="https://wa.me/+5491126124456"
+            class="specialist__whatsapp"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist3.jpg" alt="specialist one" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Claudia Furn</h4>
+            <small>Pediatry specialist</small>
+          </div>
+          <div class="specialist__socials">
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-facebook-square"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <a
+            target="_blank"
+            href="https://wa.me/+5491126124456"
+            class="specialist__whatsapp"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist4.jpg" alt="specialist one" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Tania Margel</h4>
+            <small>Dermatology specialist</small>
+          </div>
+          <div class="specialist__socials">
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-facebook-square"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <a
+            target="_blank"
+            href="https://wa.me/+5491126124456"
+            class="specialist__whatsapp"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="swiper mySwiper">
+      <h2>What Our Patient Say</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, animi.</p>
+      <div class="swiper-wrapper">
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nisi
+            repellat sint mollitia harum incidunt eos soluta aliquid, sunt earum
+            consequuntur consectetur beatae veniam? Tempore.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assets/avatar1.jpg" alt="Patient One" />
+            </div>
+            <div class="patient__details">
+              <h5>Rodrigo Molina</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nisi
+            repellat sint mollitia harum incidunt eos soluta aliquid, sunt earum
+            consequuntur consectetur beatae veniam? Tempore.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assets/avatar2.jpg" alt="Patient One" />
+            </div>
+            <div class="patient__details">
+              <h5>Mabel Suarez</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nisi
+            repellat sint mollitia harum incidunt eos soluta aliquid, sunt earum
+            consequuntur consectetur beatae veniam? Tempore.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assets/avatar3.jpg" alt="Patient One" />
+            </div>
+            <div class="patient__details">
+              <h5>Lionel Messi</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nisi
+            repellat sint mollitia harum incidunt eos soluta aliquid, sunt earum
+            consequuntur consectetur beatae veniam? Tempore.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assets/avatar4.jpg" alt="Patient One" />
+            </div>
+            <div class="patient__details">
+              <h5>Di Maria</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nisi
+            repellat sint mollitia harum incidunt eos soluta aliquid, sunt earum
+            consequuntur consectetur beatae veniam? Tempore.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assets/avatar5.jpg" alt="Patient One" />
+            </div>
+            <div class="patient__details">
+              <h5>Scaloni</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+        <article class="swiper-slide">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nisi
+            repellat sint mollitia harum incidunt eos soluta aliquid, sunt earum
+            consequuntur consectetur beatae veniam? Tempore.
+          </p>
+          <div class="patient">
+            <div class="avatar">
+              <img src="./assets/avatar6.jpg" alt="Patient One" />
+            </div>
+            <div class="patient__details">
+              <h5>Dibu Martinez</h5>
+              <small>Patient</small>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./main.js"></script>
+  </body>
 </html>
